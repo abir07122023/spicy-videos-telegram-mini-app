@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Spicy Videos</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+      padding: 40px;
+    }
+    button {
+      padding: 12px 20px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    #content {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
 
+<h2>Watch Ad to Unlock 🔒</h2>
+
+<button onclick="watchAd()">Watch Ad</button>
+
+<div id="content">
+  <h3>Unlocked 🔓</h3>
+  <p>Your secret content goes here</p>
+</div>
+
+<script>
+  const tg = window.Telegram.WebApp;
+  tg.expand();
+
+  function watchAd() {
+    alert("Ad coming soon...");
+
+    // temporary unlock
+    document.getElementById("content").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
