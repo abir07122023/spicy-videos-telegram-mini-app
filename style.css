@@ -1,36 +1,66 @@
 body {
   margin: 0;
-  background: #0f0f0f;
+  background: #0b0b0b;
   color: white;
   font-family: Arial;
 }
 
 .container {
-  padding: 20px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .card {
-  background: #1c1c1c;
-  border-radius: 15px;
-  padding: 15px;
+  background: #161616;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(255,0,0,0.15);
 }
 
 img {
   width: 100%;
-  border-radius: 10px;
+  display: block;
+}
+
+.info {
+  padding: 15px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.views {
+  color: #999;
+  margin-top: 5px;
 }
 
 button {
   width: 100%;
-  margin-top: 10px;
-  padding: 12px;
+  margin-top: 15px;
+  padding: 14px;
   border: none;
-  background: red;
+  border-radius: 12px;
+  background: linear-gradient(to right, #ff004c, #ff3300);
   color: white;
-  border-radius: 10px;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .hidden {
   display: none;
 }
+
+.unlock-box {
+  margin-top: 15px;
+  padding: 15px;
+  background: #222;
+  border-radius: 12px;
+}
+
